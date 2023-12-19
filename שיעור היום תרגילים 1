@@ -1,0 +1,81 @@
+// number q.1
+// import java.util.Scanner;
+
+// class Main {
+//   public static void main(String[] args) {
+//     Scanner scan = new Scanner(System.in);
+//     System.out.println("Enter your name: ");
+//     String str1 = scan.next();
+//     System.out.println("Enter your name: ");
+//     String str2 = scan.next();
+//     System.out.println("Enter your name: ");
+//     String str3 = scan.next();
+//     if (str1.compareTo(str2) < 0 && str1.compareTo(str3) < 0) {
+//       if (str2.compareTo(str3) < 0) {
+//         System.out.print(str1 + str2 + str3);
+//       } else {
+//         System.out.print(str1 + str3 + str2);
+//       }
+//     }
+//     if (str2.compareTo(str1) < 0 && str2.compareTo(str3) < 0) {
+//       if (str2.compareTo(str3) < 0) {
+//         System.out.print(str2 + str1 + str3);
+//       } else {
+//         System.out.print(str2 + str3 + str1);
+//       }
+//     }
+//     if (str3.compareTo(str1) < 0 && str3.compareTo(str2) < 0) {
+//       if (str3.compareTo(str1) < 0) {
+//         System.out.print(str3 + str1 + str2);
+//       } else {
+//         System.out.print(str3 + str2 + str1);
+//       }
+//     }
+//   }
+// }
+
+// number q.2
+// import java.util.Scanner;
+// class Main {
+//   public static void main(String[] args) {
+//     System.out.println("enter a sentence");
+//     Scanner sc = new Scanner(System.in);
+//     String str1 = sc.nextLine();
+//     int size = str1.length();
+//     System.out.println(size);
+//   }
+// }
+
+
+// q3
+// import java.util.Scanner;
+// class Main {
+//   public static void main(String[] args) {
+//     System.out.println("enter a word");
+//     Scanner sc = new Scanner(System.in);
+//     String str1 = sc.nextLine();
+//     char str2 = str1.charAt(0);
+//     char str3 = str1.charAt(2);
+//     if(str3 == str2) {
+//       System.out.println("true");
+//     }
+//     else{
+//       System.out.println("false");
+//     }
+//   }
+// }
+
+
+//q4
+// import java.util.Scanner;
+// class Main {
+//   public static void main(String[] args) {
+//     System.out.println("enter a word");
+//     Scanner sc = new Scanner(System.in);
+//     String str1 = sc.nextLine();
+//     char str2 = str1.charAt(0);
+//     char str3 = str1.charAt(1);
+//     char str4 = str1.charAt(2);
+//     System.out.println(str4 + "" + str3 + "" + str2 );
+//   }
+// }
