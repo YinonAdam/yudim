@@ -1,0 +1,63 @@
+import java.util.Random;
+import java.util.Scanner;
+public class Main {
+    public static void q1(){
+      Scanner sc = new Scanner(System.in);
+      System.out.println("enter a number");
+      int age1 = sc.nextInt();
+      int age4 = age1 - 10;
+      int age3 = age4 + 1;
+      int age2 = age3 + 3;
+      System.out.println("child age1: " + age1);
+      System.out.println("child age2: " + age2);
+      System.out.println("child age3: " + age3);
+      System.out.println("child age4: " + age4);
+    }
+    public static void q2(){
+      Scanner sc = new Scanner(System.in);
+      System.out.println("enter a 3 digit number");
+      String num = sc.nextLine();
+      char char1 = num.charAt(0);
+      char char2 = num.charAt(1);
+      char char3 = num.charAt(2);
+      System.out.println(char3 + "" + char2 + "" + char1);
+    }
+    public static void q3(){
+      Random rand = new Random();
+      int num1 = rand.nextInt(100-40)+1;
+      int num2 = rand.nextInt(100-40)+1;
+      int num3 = rand.nextInt(100-40)+1;
+      if (num1 > num2 && num1 > num3)
+        System.out.println(num1);
+      else if (num2 > num1 && num2 > num3)
+        System.out.println(num2);
+      else
+        System.out.println(num3);
+    }
+    public static void q4(){
+      Scanner sc = new Scanner(System.in);
+      System.out.println("enter String");
+      String str1 = sc.nextLine();
+      System.out.println("enter String");
+      String str2 = sc.nextLine();
+      if (str1.length() < str2.length())
+        System.out.println(str1);
+      else
+        System.out.println(str2);
+      String sub1 = str1.substring(0, 3);
+      String sub2 = str2.substring(0, 3);
+      System.out.println(sub1);
+      System.out.println(sub2);
+      if (sub1.compareTo(sub2) > 0)
+        System.out.println(sub1);
+      else
+        System.out.println(sub2);
+      
+    }
+   public static void main(String[] args){
+    q1();
+    q2();
+    q3();
+    q4();
+   }
+}
